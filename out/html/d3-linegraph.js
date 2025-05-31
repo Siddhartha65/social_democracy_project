@@ -16,13 +16,13 @@ function addMonths(date, months) {
 d3.linegraph = function(noTicks, noDots, parties, partyColors, partyNames, dataMax, dataMin, additionalMonths) {
     /* params */
     if (!parties) {
-        parties = ['flp', 'dem', 'rep', 'z', 'dvp', 'dnvp', 'nsdap', 'other'];
+        parties = ['flp', 'dem', 'rep', 'tch', 'dvp', 'dnvp', 'nsdap', 'other'];
     }
     if (!partyColors) {
-        partyColors = {'flp': '#E3000F', 'dem': '#8B0000', 'rep': '#DCCA4A', 'z': '#000', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0'};
+        partyColors = {'flp': '#0AB13C', 'dem': '#8B0000', 'rep': '#C41212', 'tch': '#E98D8D', 'dvp': '#D5AC27', 'dnvp': '#3f7bc1', 'nsdap': '#954B00', 'other': '#a0a0a0'};
     }
     if (!partyNames) {
-        partyNames = {'flp': 'FLP', 'dem': 'DEM', 'rep': 'REP', 'z': 'Z + BVP', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others'};
+        partyNames = {'flp': 'FLP', 'dem': 'DEM', 'rep': 'REP', 'tch': 'Technocracy Inc.', 'dvp': 'DVP', 'dnvp': 'DNVP', 'nsdap': 'NSDAP', 'other': 'Others'};
     }
     if (!additionalMonths) {
         additionalMonths = 10;

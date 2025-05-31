@@ -534,19 +534,19 @@ table {
 }
 
 /* Styles for parties */
-.seat.kpd {
-    fill: #8B0000;
+.seat.dem {
+    fill: #0a71cb;
 }
-.seat.spd {
-    fill: #E3000F;
+.seat.flp {
+    fill: #0ab13c;
     stroke: var(--border-color);
     stroke-width: 1.5px;
 }
-.seat.ddp {
-    fill: #DCCA4A;
+.seat.rep {
+    fill: #c41212;
 }
-.seat.z {
-    fill: #000;
+.seat.tch {
+    fill: #e98d8d;
 }
 .seat.bvp {
     fill: #69A2BE;
